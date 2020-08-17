@@ -1,8 +1,8 @@
 ### 👋 Hi there, I'm Rasul, welcome to my GitHub bio.
 
 <p align="senter">
-    <a href="https://github.com/terrytangyuan"><img src="https://img.shields.io/github/followers/terrytangyuan.svg?label=GitHub&style=social" alt="GitHub"></a>
-    <a href="https://twitter.com/TerryTangYuan"><img src="https://img.shields.io/twitter/follow/TerryTangYuan?label=Twitter&style=social" alt="Twitter"></a>
+    <a href="https://github.com/rasulkireev"><img src="https://img.shields.io/github/followers/rasulkireev.svg?label=GitHub&style=social" alt="GitHub"></a>
+    <a href="https://twitter.com/rasulkireev"><img src="https://img.shields.io/twitter/follow/rasulkireev?label=Twitter&style=social" alt="Twitter"></a>
 </p>
 
 - 🇷🇺 I was born in Moscow, Russia.
