@@ -1,0 +1,71 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rasul Kireev</title>
+  <desc id="desc">Product engineer building agent infrastructure, data systems, and useful software.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#172033"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="91" y1="66" x2="1030" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4ADE80"/>
+      <stop offset="0.52" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="21" stroke="#FFFFFF" stroke-opacity="0.09"/>
+
+  <circle cx="1080" cy="72" r="118" fill="#22D3EE" fill-opacity="0.06"/>
+  <circle cx="1140" cy="278" r="150" fill="#A78BFA" fill-opacity="0.055"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="76" y="72" fill="#4ADE80" font-size="20" font-weight="600">$ whoami</text>
+    <text x="76" y="143" fill="#F8FAFC" font-size="54" font-weight="700" letter-spacing="-1.5">Rasul Kireev</text>
+    <text x="78" y="187" fill="#AAB5C5" font-size="23">product engineer · backend systems · agent infrastructure</text>
+
+    <g transform="translate(78 235)" font-size="17" font-weight="600">
+      <rect width="104" height="38" rx="19" fill="#4ADE80" fill-opacity="0.12" stroke="#4ADE80" stroke-opacity="0.32"/>
+      <text x="22" y="25" fill="#86EFAC">Python</text>
+
+      <rect x="118" width="104" height="38" rx="19" fill="#22D3EE" fill-opacity="0.11" stroke="#22D3EE" stroke-opacity="0.3"/>
+      <text x="139" y="25" fill="#67E8F9">Django</text>
+
+      <rect x="236" width="86" height="38" rx="19" fill="#FB923C" fill-opacity="0.11" stroke="#FB923C" stroke-opacity="0.3"/>
+      <text x="256" y="25" fill="#FDBA74">Rust</text>
+
+      <rect x="336" width="112" height="38" rx="19" fill="#A78BFA" fill-opacity="0.11" stroke="#A78BFA" stroke-opacity="0.3"/>
+      <text x="357" y="25" fill="#C4B5FD">Postgres</text>
+
+      <rect x="462" width="82" height="38" rx="19" fill="#F8FAFC" fill-opacity="0.07" stroke="#F8FAFC" stroke-opacity="0.2"/>
+      <text x="483" y="25" fill="#CBD5E1">MCP</text>
+    </g>
+  </g>
+
+  <g transform="translate(895 110)" filter="url(#glow)">
+    <circle cx="24" cy="50" r="8" fill="#4ADE80"/>
+    <circle cx="104" cy="50" r="8" fill="#22D3EE"/>
+    <circle cx="184" cy="50" r="8" fill="#A78BFA"/>
+    <path d="M34 50H94" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M114 50H174" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M84 42L94 50L84 58" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M164 42L174 50L164 58" stroke="#A78BFA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="600" text-anchor="middle">
+    <text x="919" y="190" fill="#86EFAC">agent</text>
+    <text x="999" y="190" fill="#67E8F9">data</text>
+    <text x="1079" y="190" fill="#C4B5FD">action</text>
+  </g>
+</svg>
