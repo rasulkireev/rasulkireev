@@ -1,12 +1,4 @@
-<p align="center">
-  <img src="./assets/profile-header.svg" alt="Rasul Kireev — product engineer building agent infrastructure, data systems, and useful software" width="100%">
-</p>
-
-## I turn messy workflows into dependable products.
-
 I'm a Senior Growth Engineer at [Readwise](https://readwise.io/) and an independent product builder at [LVTD](https://github.com/LVTD-LLC). I work mostly with Python, Django, PostgreSQL, Rust, and Go—usually where agents, data, and production systems meet.
-
-The short version: I like finding consequential problems, shipping the whole solution, and staying around for the retries, migrations, observability, and awkward edge cases.
 
 ### What I'm building
 
@@ -18,6 +10,8 @@ Tools that give agents data, a place to test, a second opinion, and useful refer
 | --- | --- | --- |
 | [Rowset](https://github.com/LVTD-LLC/rowset) | Create, query, update, and export structured datasets through MCP, REST, or a CLI, with scoped keys and persistent dataset instructions | Python, Django, FastMCP, Go, Postgres |
 | [PGSandbox](https://github.com/LVTD-LLC/pgsandbox) | Test SQL and migrations against disposable Postgres databases, with scoped roles, TTLs, and bounded results | Rust, MCP, Tokio, Postgres |
+| [ShipRust](https://shiprust.com) | Generate and download Rust SaaS projects through MCP or REST, with auth, billing, background jobs, and agent-readable docs | Rust, Axum, Maud, Postgres, MCP |
+| [Djass](https://djass.dev) | Choose modules, generate a Django SaaS repo, and download it through MCP, CLI, or API, with instructions for the agent that builds next | Python, Django, Postgres, MCP, Go CLI |
 | [nitpick](https://github.com/LVTD-LLC/nitpick) | Review a diff with relevant repo context, get structured findings, and iterate using severity-based exit codes or background review hooks | Rust, OpenRouter, local models, agent hooks |
 | [TastefulKit](https://github.com/LVTD-LLC/tastefulkit) | Search real design references and retrieve screenshots and DESIGN.md guides through MCP or the API | Python, Django, MCP, design search |
 | [CiteGuild](https://github.com/LVTD-LLC/citeguild) | Find relevant member articles for a draft through MCP, CLI, or a versioned API, with excerpts and source links to verify | Python, Django, FastMCP, Postgres |
