@@ -33,6 +33,15 @@ Installable agent integrations: [Rowset](https://github.com/LVTD-LLC/rowset-skil
 | --- | --- | --- |
 | [Staleaway](https://github.com/LVTD-LLC/staleaway) | Turns a sitemap into scheduled page-review reminders so website content gets revisited | Django, Postgres, Django Q2, Redis, email |
 
+#### Research & experiments
+
+| Project | What it explores | Source & interfaces |
+| --- | --- | --- |
+| [Jev Benchmark](https://lvtd.dev/jev-benchmark) | Explores model preferences through pairwise Jev judgments, with inspectable prompts, decisions, Elo rankings, and reported answer costs | [Source](https://github.com/LVTD-LLC/lvtd-site/tree/main/jev_benchmark), [JSON evidence](https://lvtd.dev/jev-benchmark/data.json), [agent-readable methodology](https://lvtd.dev/jev-benchmark/methodology.md) |
+| [AI Steering](https://lvtd.dev/ai-steering) | Helps coding agents and maintainers structure repository context, with guidance and examples for AGENTS.md, PRODUCT.md, DESIGN.md, and other instruction files | [Source & installable skill](https://github.com/LVTD-LLC/ai-steering), Markdown reference catalog |
+
+[Browse the research index](https://lvtd.dev/research/).
+
 ### How I work
 
 - **Product first.** I care about the user and the outcome, not just the implementation.
