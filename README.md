@@ -10,14 +10,34 @@ The short version: I like finding consequential problems, shipping the whole sol
 
 ### What I'm building
 
+#### AI agent tools
+
+Tools that give agents data, a place to test, a second opinion, and useful references.
+
+| Project | What agents can do | Under the hood |
+| --- | --- | --- |
+| [Rowset](https://github.com/LVTD-LLC/rowset) | Create, query, update, and export structured datasets through MCP, REST, or a CLI, with scoped keys and persistent dataset instructions | Python, Django, FastMCP, Go, Postgres |
+| [PGSandbox](https://github.com/LVTD-LLC/pgsandbox) | Test SQL and migrations against disposable Postgres databases, with scoped roles, TTLs, and bounded results | Rust, MCP, Tokio, Postgres |
+| [nitpick](https://github.com/LVTD-LLC/nitpick) | Review a diff with relevant repo context, get structured findings, and iterate using severity-based exit codes or background review hooks | Rust, OpenRouter, local models, agent hooks |
+| [TastefulKit](https://github.com/LVTD-LLC/tastefulkit) | Search real design references and retrieve screenshots and DESIGN.md guides through MCP or the API | Python, Django, MCP, design search |
+| [CiteGuild](https://github.com/LVTD-LLC/citeguild) | Find relevant member articles for a draft through MCP, CLI, or a versioned API, with excerpts and source links to verify | Python, Django, FastMCP, Postgres |
+| [BrowseAwesome](https://github.com/LVTD-LLC/browse-awesome) | Discover open-source dependencies across awesome lists through public read-only MCP tools, using repository metadata and search filters | Python, Django, FastMCP, GitHub ingestion |
+
+Installable agent integrations: [Rowset](https://github.com/LVTD-LLC/rowset-skills) · [nitpick](https://github.com/LVTD-LLC/nitpick-skills) · [TastefulKit](https://github.com/LVTD-LLC/tastefulkit-skills) · [CiteGuild](https://github.com/LVTD-LLC/citeguild-skills)
+
+#### Developer communities & discovery
+
 | Project | What it does | Under the hood |
 | --- | --- | --- |
-| [Rowset](https://github.com/LVTD-LLC/rowset) | Gives AI agents a structured dataset backend with stable, inspectable interfaces | Python, Django, FastMCP, Go, Postgres |
-| [PGSandbox](https://github.com/LVTD-LLC/pgsandbox) | Lets coding agents test SQL and migrations in disposable, isolated Postgres databases | Rust, MCP, Tokio, Postgres |
-| [ReviewGate](https://github.com/LVTD-LLC/reviewgate) | Adds open-source review gates for agent-written pull requests | Rust, GitHub Actions, OpenRouter |
-| [Tech Job Alerts](https://github.com/LVTD-LLC/tjalerts) | Turns scattered developer job posts into structured search and personalized alerts | Django, pgvector, background jobs, PostHog |
 | [Built with Django](https://github.com/LVTD-LLC/builtwithdjango) | Showcases products built by the Django community | Django, Postgres, community submissions |
-| [Django SaaS Starter](https://github.com/LVTD-LLC/django-saas-starter) | A production-ready starting point for modern Django SaaS products | Django, HTMX, Alpine.js, Docker |
+| [Built with Rust](https://github.com/LVTD-LLC/builtwithrust) | Helps people discover Rust apps and tools; serves cached pages from a single binary and exposes an admin API for agents | Rust, Axum, Maud, SQLite |
+| [Built with Bend](https://github.com/LVTD-LLC/built-with-bend) | Collects human-reviewed Bend projects, with public submissions, source links, and a weekly newsletter | Python, Django, Postgres, curator API |
+
+#### Website maintenance
+
+| Project | What it does | Under the hood |
+| --- | --- | --- |
+| [Staleaway](https://github.com/LVTD-LLC/staleaway) | Turns a sitemap into scheduled page-review reminders so website content gets revisited | Django, Postgres, Django Q2, Redis, email |
 
 ### How I work
 
@@ -34,4 +54,4 @@ The short version: I like finding consequential problems, shipping the whole sol
 
 [Website](https://rasulkireev.com) · [Writing](https://rasulkireev.com/articles/) · [X](https://x.com/rasulkireev) · [LinkedIn](https://www.linkedin.com/in/rasul-kireev/) · [Email](mailto:me@rasulkireev.com)
 
-<sub>If you're exploring the repositories, start with Rowset, PGSandbox, and ReviewGate. They best represent what I'm working on now.</sub>
+<sub>If you're exploring the repositories, start with Rowset, PGSandbox, and nitpick. They best represent what I'm working on now.</sub>
